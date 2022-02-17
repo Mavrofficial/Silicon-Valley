@@ -1,0 +1,481 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v29-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v29-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v29-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v29-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v29-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v29-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v29-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v29-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v29-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/*
+  *, *::before, *::after{
+      box-sizing: border-box;
+  }
+  */
+  .wrapper{ /* блок и его общая ширина*/
+        display: flex;
+        align-items: center;
+        max-width: 1219px;
+        margin: 0 auto;
+        height: 84px;
+  }
+  
+
+  /*Header syle start*/
+
+  .header{ 
+      background-color: #007765;
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+  .header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .header__logo-pic{
+      height: 45px;
+      width: 184px;
+  }
+  .header__list{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .header__item{
+      margin-right: 24px
+  }
+  .header__item:last-child{
+      margin-right: 0;
+  }
+  ul{
+      list-style-type: none;
+  }
+  .header__link{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+  }
+  .header__link:hover, .header__link:focus, .header__link:active{
+      opacity: .75;
+  }
+
+    /*Header syle end*/
+
+
+/*
+.intro{
+    height: 403px;
+    background: url(../img/image-8.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+*/
+
+/*Зеленый блок начало*/
+.container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  
+  .intro {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    margin-top: 84px;
+    background-image: url(../img/image-8.png);
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .intro__message {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #fff;
+  }
+  /*Зеленый блок конец*/
+
+   /*Problem block start*/
+
+.The__problem{
+    background-color: #EEEEEE;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.block__problem{
+    box-sizing: border-box;
+    max-width: 1107px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 57px;
+}
+
+.intro__title{
+    padding-top: 48px;
+    margin-bottom: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.text__problem{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 54px;
+}
+
+.text__title{
+    padding-top: 0;
+    padding-bottom: 92px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+
+}
+   /*Problem block end*/
+
+   
+.Hero{
+    padding-top: 128px;
+    padding-bottom: 127px;
+    background-image: url(../img/image-9.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.Hero__text{
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.Hero__message{
+    padding-top: 128px;
+    padding-bottom: 127px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+  .info{
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .info__block{
+    box-sizing: border-box;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 54px;
+  }
+ 
+  .info__title{
+    padding-top: 48px;
+    margin-bottom: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.info__text{
+    max-width: 1093px;
+    margin-left: auto;
+    margin-right: auto;                     
+    padding-left: 55px;
+    padding-right: 71px;
+}
+
+.info__all{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.info__logo-pic{
+    height: 115px;
+    width: 115px;
+}
+.info__logo{
+    float: left;
+    margin-right: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.info__all-two{
+    padding-bottom: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+
+}
+
+/* Начало блока где весь состав Пегова дудочника*/
+
+.all-members{
+    background-color: #EEEEEE;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.all-members__bloc{
+    box-sizing: border-box;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 54px;
+
+}
+
+.the-team{
+    padding-top: 48px;
+    margin-bottom: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+
+}
+
+.one__line{
+    text-align: center;
+}
+
+.one-block{
+    display: inline-block;
+    padding-left: 146px;
+    padding-right: 121px;
+    margin-bottom: 145px;
+}
+
+.richard-link-pic{
+    height: 168px;
+    width: 168px;
+}
+
+.two-block{
+    display: inline-block;
+    padding-left: 121px;
+    padding-right: 121px;
+}
+
+.dinesh-link-pic{
+    height: 168px;
+    width: 168px;
+}
+
+.three-block{
+    display: inline-block;
+    padding-left: 121px;
+    padding-right: 145px;
+}
+
+.Gilfoyle-link-pic{
+    height: 168px;
+    width: 168px;
+
+}
+
+.two__line{
+    text-align: center;
+}
+
+
+.four-block{
+    display: inline-block;
+    padding-left: 146px;
+    padding-right: 121px;
+    margin-bottom: 94px;
+}
+
+.Jared-link-pic{
+    height: 168px;
+    width: 168px;
+}
+
+
+.five-block{
+    display: inline-block;
+    padding-left: 121px;
+    padding-right: 121px;
+    margin-bottom: 94px;
+}
+
+.monica-link-pic{
+    height: 168px;
+    width: 168px;
+}
+
+
+.six-block{
+    display: inline-block;
+    padding-left: 121px;
+    padding-right: 145px;
+    margin-bottom: 94px;
+}
+
+.nelson-link-pic{
+    height: 168px;
+    width: 168px;
+}
+
+
+figure{                /* Для маленьких подписей под фотографиями*/
+    margin: 12px;
+}
+
+figcaption{            /* Для маленьких подписей под фотографиями*/
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #007765;
+}
+
+.sign{               /* Для маленьких подписей под фотографиями*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+/* Конец блока где весь состав Пегова дудочника*/
+
+/* Начало финального блока*/
+.final{
+    box-sizing: border-box;
+    background-color:#333333;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.final__block{
+    padding-top: 48px;
+    padding-bottom: 64px;
+    box-sizing: border-box;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.final__text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*Конец финального блока*/
+
+
+
+section:target{                  /* Для того что бы переход по якорной ссылке быть ровный*/
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+
+
+
